@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 function DoubleLinkedList() {
   // 创造结点构造函数
   function Node(element) {
@@ -143,7 +145,9 @@ function DoubleLinkedList() {
 
   // 根据元素值删除元素
   DoubleLinkedList.prototype.remove = function (element) {
+    // @ts-ignore
     let index = this.indexOf(element);
+    // @ts-ignore
     return this.removeAt(index);
   };
 
@@ -194,6 +198,7 @@ function DoubleLinkedList() {
 
   // 实习toString方法
   DoubleLinkedList.prototype.toString = function () {
+    // @ts-ignore
     return this.forwardString();
   };
 }
