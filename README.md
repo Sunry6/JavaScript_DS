@@ -1,2 +1,2 @@
 # JavaScript_DS
-JavaScript实现基本数据结构
+JavaScript/TypeScript实现基本数据结构
