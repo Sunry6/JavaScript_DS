@@ -66,3 +66,5 @@ function find(head: ListNode | null, target: number): number {
 }
 
 // 增删用链表,查找用数组
+
+export {}
